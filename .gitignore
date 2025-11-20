@@ -1,0 +1,53 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# EF Core Migrations snapshot
+**/Migrations/*.Snapshot.cs
+
+# SQLite / DB
+*.db
+*.sqlite
+*.sqlite3
+
+# User secrets
+secrets.json
+appsettings.*.json
+appsettings.Development.json
+
+# IIS Express / VS
+iisexpress/
+*.vspscc
+
+# Mac / Linux files
+*.DS_Store
+Thumbs.db
+
+# Node / lib (if any)
+node_modules/
+wwwroot/lib/
+
+# Log files
+*.log
+
+# Generated files
+*.generated.*
