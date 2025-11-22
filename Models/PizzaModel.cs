@@ -26,6 +26,11 @@ namespace WebApplication1.Models
         Pepperoni,
         BBQChicken,
         Veggie,
-        Hawaiian
+        Hawaiian,
+        FourCheese,    
+        Mushroom,      
+        Supreme,       
+        MeatLovers,  
+        Calzone
     }
 }
