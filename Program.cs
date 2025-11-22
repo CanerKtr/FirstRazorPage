@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
+using WebApplication1.Services;
+using WebApplication1.Models;
 
 namespace WebApplication1
 {
@@ -13,7 +15,9 @@ namespace WebApplication1
             builder.Services.AddRazorPages();
             builder.Services.AddDbContext<WebAppDbContext>(options =>
                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<PizzaService>();
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
